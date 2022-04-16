@@ -112,16 +112,16 @@ th3.innerHTML="address";
 
 let th4=document.createElement("th")
 th4.innerHTML="pincode";
-// let td5=document.createElement("td")
+
 let th5=document.createElement("th")
 th5.innerHTML="gender";
-// let td6=document.createElement("td")
+
 let th6=document.createElement("th")
 th6.innerHTML="food";
-// let td7=document.createElement("td")
+
 let th7=document.createElement("th")
 th7.innerHTML="state";
-// let td8=document.createElement("td")
+
 let th8=document.createElement("th")
 th8.innerHTML="country";
 
@@ -152,6 +152,7 @@ for(let i=1;i<form.length;i++){
 
     let td5=document.createElement("td")
     gender1=document.getElementById("male").value
+    
     // gender2=document.getElementById("female").value
     // gender=document.getElementsByName("gender")
 
@@ -172,16 +173,6 @@ else if(radio2)
 
     let td6=document.createElement("td")
     foods=document.getElementById("food").value;
-    // foods.forEach(function (el) {
-    //     if (el.checked == true) {
-    //       foods.push(el.value);
-    //     }
-    //   });
-
-    // if (foods.length < 2) {
-    //     alert("Select at least two food items");
-    //     return;
-    //   }
     td6.innerHTML=foods;
 
 
@@ -210,4 +201,3 @@ submit.append(table)
 document.body.append(div)
 div.append(form)
 form.append(r1,r2,r3,r4,r5,r6,r7,r8,r9)
-// form.append(fname,lname,add1)
